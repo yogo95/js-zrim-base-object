@@ -1,0 +1,33 @@
+{
+  "name": "js-zrim-base-object",
+  "version": "0.1.0",
+  "description": "Contains base object",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unitTest",
+    "unitTest": "node test/unit/index.js",
+    "codeStyleValidation": "eslint lib/** api/** test/** *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogo95/js-zrim-base-object.git"
+  },
+  "keywords": [
+    "zrim-everything",
+    "base-object"
+  ],
+  "author": "NEGRO, Eric <yogo95@zrim-everything.eu>",
+  "license": "CECILL-2.1",
+  "bugs": {
+    "url": "https://github.com/yogo95/js-zrim-base-object/issues"
+  },
+  "homepage": "https://github.com/yogo95/js-zrim-base-object#readme",
+  "devDependencies": {
+    "js-zrim-test-bootstrap": "0.1.0"
+  },
+  "dependencies": {
+    "js-zrim-proxy-logger": "0.1.0",
+    "js-zrim-utils": "0.1.0",
+    "lodash": "4.17.4"
+  }
+}
